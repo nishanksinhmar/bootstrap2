@@ -1,77 +1,18 @@
-.navbar-brand img {
-    height: 4rem;
-}
-
-.navbar-brand {
-    height: 10vh;
-    max-width: 100vw;
-
-}
 
 .first {
-    display: flex;
-    /* height: 10vh; */
-    /* width: 80vh;
-    max-width: 100vh; */
-    background:#0d6efd;
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
-    /* margin: 1vh; */
-    padding: 2vw;
-    /* align-items: center; */
+    color: white;
+    background-color: rgb(107, 107, 220);
 }
-
-.carousel {
-    height: 80vh;
-    width: 70vw;
-    margin: 0 auto;
-}
-
-.carousel-inner {
-    height: 100%;
-}
-
-.carousel-item {
-    height: 100%;
-}
-
-.carousel-item img {
-    object-fit: auto;
-    height: 100%;
-    max-width: 100%;
-}
-
-.welcome {
-    display: block;
-    max-width: 80vw;
-    margin: auto;
-
-}
-
-.soilder{
-    align-content: center;
-    justify-content: center;
-    display: flex;
-    max-width: 80vw;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
-.soilder-card{
-    display: flex;
-    /* flex-direction: column; */
-    align-items: start;
-    margin:20px;
-}
-.social-links img{
-    height: 10vh;
-    width: 10vh;
-
-}
-.social-links{
+.price {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+}
+.old-price{
+    text-decoration:line-through;
+    color: red;
+}
+
+.new-price{
+    color: green;
 }
 

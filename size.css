@@ -1,0 +1,28 @@
+
+@media  (max-width: 480px){
+    
+.navbar-brand img {
+    height: 70px;
+
+ }
+.first{
+    border-radius: 10px;
+    padding: 40px;
+}
+.social-links img{
+    height: 10vh;
+    width: 10vh;
+
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.soilder-card img {
+    margin: 20px;
+}
+    
+}
